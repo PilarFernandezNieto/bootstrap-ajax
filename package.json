@@ -1,0 +1,15 @@
+{
+  "name": "proyecto_bootstrap",
+  "version": "1.0.0",
+  "description": "Taller de Bootstrap y css personalizado",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@popperjs/core": "^2.11.8",
+    "bootstrap": "^5.3.3"
+  }
+}

@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Películas</title>
+    <!-- <link rel="stylesheet" href="style.css"> -->
+     <link rel="stylesheet" href="css/custom.css">
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg bg-light mb-5" id="mainNav">
+        <div class="container">
+            <a href="#" class="navbar-brand"> MiPágina </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="collapseNavbar">
+                    <ul class="navbar-nav">
+                        <li class="nav-item">
+                            <a href="#" class="nav-link">Inicio</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#" class="nav-link">Listado</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#" class="nav-link">Contacto</a>
+                        </li>
+                    </ul>
+                </div>
+          
+        </div>
+
+    </nav>
+    <div class="container my-3">
+        <div class="row gy-3">
+            <div class="col-lg-3 col-sm-6 col-12">
+                <input type="text" class="form-control w-100" placeholder="Buscar" id="query">
+            </div>
+            <div class="col-lg-3 col-sm-6 col-12">
+                <input type="text" class="form-control w-100" placeholder="Año" id="year">
+            </div>
+            <div class="col-lg-3 col-sm-6 col-12">
+                <input type="text" class="form-control w-100" placeholder="Página" id="page">
+            </div>
+            <div class="col-lg-3 col-sm-6 col-12">
+                
+                <select name="" id="language" class="form-select">
+                    <option value="">Lenguaje</option>
+                    <option value="es">Español</option>
+                    <option value="en">Inglés</option>
+
+                </select>
+            </div>
+            <div class="col-lg-3 col-sm-6 col-12">
+                <button id="filtro" class="btn btn-primary">Enviar</button>
+            </div>
+        </div>
+
+    </div>
+
+    <section class="container" id="posts">
+    </section>
+
+<script src="index.js"></script>
+</body>
+</html>
